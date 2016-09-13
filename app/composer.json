@@ -1,0 +1,27 @@
+{
+ "name":"yujiang/test",
+  "description":"test",
+  "type":"project",
+  "keywords":[
+    "test",
+    "yujiang",
+    "test"
+  ],
+  "homepage":"http://hdphp.cpm/",
+  "license":"Apache-2.0",
+  "authors":[
+    {"name":"于江",
+    "email":"935315164@qq.com"
+    }
+  ],
+  "minimmum-stablility":"dev",
+  "require":{
+    "php":">=5.4.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "app\\":"app"
+    }
+  }
+
+}
